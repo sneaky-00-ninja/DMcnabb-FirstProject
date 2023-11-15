@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* TOP ROW. Black background, with nav-links and Sign-in/up.     */
+
+.navigation-wrapper {
+    height: 110px;
+    background-color: black;
+    color: #cbcbcb;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    align-items: center;
+}
+
+/* Left column of TOP ROW.  */
+
+.logo-column {
+    justify-content: left;
+    padding: 30px 80px 30px 30px;
+}
+.logo-column img {
+    width: 200px; 
+    height: 100%;    
+    ZOOM: 1.2;
+}
+
+/* Middle column of TOP ROW.  */
+
+.middle-column {
+    flex-direction: column;
+    display: flex;
+}
+.explore {
+    color: #f3db7a;
+    font-weight: 660;
+    font-size: 25px;
+
+}
+
+.link-row {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    background-color: black;
+}
+.nav-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 950;
+    font-size: 30px;
+    padding-right: 25px;
+
+}
+.dropdown a {
+    color: #acaca7;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+/* Right column of TOP ROW.  */
+
+.right-column {
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    color: white;
+    align-items: center;
+}
+
+.top-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px;
+    background-color: #36383f;
+    font-weight: 750;
+    font-size: 25px;
+    padding: 0px 35px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.green-chevron {
+    color: #4bce79;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.top-button-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px;
+    background-color: #36383f;
+    font-weight: 900;
+    font-size: 52px;
+    padding: 0px 10px;
+    margin: 10px;
+    border-radius: 6px;
+    color: #7b7e8b;
+    background-color: black;
+}
+
+/*  MAIN/middle part of webpage.  */
+
+.main-section {
+    height: 730px;
+    background: radial-gradient( ellipse farthest-corner at 20% 20%, #40444e, black );
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 20px;
+}
+
+.main-section > .text-column {
+    display: flex;
+    flex-direction: column;
+    width: 930px;
+    justify-content: left;
+    padding: 20px 100px;
+    grid-gap: 40px;
+    color: #ffffff;
+}
+
+.text-column > .upper-text {
+    justify-content: left;
+    margin-top: 45px;
+    font-size: 55px;
+    font-weight: lighter;
+    line-height: 60px;
+}
+
+.text-column > .upper-text i {
+    color: #fcca54;
+    font-size: 38px;
+}
+
+.text-column > .lower-text {
+    justify-content: left;
+    color: rgb(178, 179, 179);
+    font-size: 43px;
+    font-weight: 430;
+    line-height: 60px;
+}
+
+.text-column > .main-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-column > .main-buttons > .sign-free-button {
+    display: flex;
+    height: 90px;
+    border-radius: 6px;
+    background-color: #4bce79;
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px 25px;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.text-column > .main-buttons > .learn-more-button {
+    display: flex;
+    height: 90px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 10px 25px;
+    align-items: center;
+}
+
+.image-column > .image-title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.image-title > .blue-text {
+    color: #6ad7f4;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER/lower part of webpage.  */
+
+.footer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #34383f;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.footer-section > .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 1px solid white;
+    font-weight: 600;
+}
+
+.footer-section > .banner > .banner-bold {
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+/* EXCESS at bottom of webpage.  */
+
+.below-footer {
+    height: 500px;
+    background-color: #191a1d;
+}
