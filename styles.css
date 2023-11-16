@@ -3,7 +3,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-/* TOP ROW. Black background, with nav-links and Sign-in/up.     */
+/* ---TOP ROW--- Black background, with nav-links and Sign-in/up.     */
 
 .navigation-wrapper {
     height: 110px;
@@ -106,15 +106,17 @@ body{
     background-color: black;
 }
 
-/*  MAIN/middle part of webpage.  */
+/*  ---MAIN---/middle part of webpage.  */
 
 .main-section {
     height: 730px;
-    background: radial-gradient( ellipse farthest-corner at 20% 20%, #40444e, black );
+    background: radial-gradient( ellipse farthest-corner at 20% 20%, #484a51, black );
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 20px;
 }
+
+/* left side of MAIN section.  */
 
 .main-section > .text-column {
     display: flex;
@@ -134,9 +136,8 @@ body{
     line-height: 60px;
 }
 
-.text-column > .upper-text i {
-    color: #fcca54;
-    font-size: 38px;
+.text-column > .upper-text > .hand {
+    font-family: 'Noto Color Emoji', sans-serif;
 }
 
 .text-column > .lower-text {
@@ -177,6 +178,8 @@ body{
     align-items: center;
 }
 
+/* right side of MAIN section.  */
+
 .image-column > .image-title {
     display: flex;
     flex-direction: row;
@@ -195,7 +198,7 @@ body{
     height: 100%;
 }
 
-/* FOOTER/lower part of webpage.  */
+/* ---FOOTER---/lower part of webpage.  */
 
 .footer-section {
     display: grid;
@@ -222,7 +225,7 @@ body{
     font-weight: 1000;
 }
 
-/* EXCESS at bottom of webpage.  */
+/* ---EXCESS--- at bottom of webpage.  */
 
 .below-footer {
     height: 500px;
